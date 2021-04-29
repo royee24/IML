@@ -141,3 +141,4 @@ if __name__ == "__main__":
     np.savetxt('Singular_values.csv', S, delimiter=',')
     plot_singular_values(S)
     feature_evaluation(X, y)
+    # tar -cvf ex_2_Roy_Shtoyerman.tar Ex2.pdf linear_model.py
